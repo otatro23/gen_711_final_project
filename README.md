@@ -1,5 +1,5 @@
 ### Gen 711 Final Project
-* I will be working on this project alone *
+*I will be working on this project alone*
 
 # Assembly and Identififcation of Mystery Bacteria Genomes 
 Goals: 
