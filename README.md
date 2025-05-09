@@ -16,6 +16,10 @@ Goals:
 # Results
 - Species Identification: Both species were _Eschericia coli_.
 
-![Sample 04 blobplot](images/blobplot_04.bam0.png)
-![Sample 04 blobplot](images/blobplot_05.bam0.png)
-Figure 1: Blobplots of the genome assemblies for sample 04 (top) and sample 05 (bottom). 
+![Sample 04 blobplot](images/blobplot_species_04.bam0.png)
+![Sample 05 blobplot](images/blobplot_species_05.bam0.png)
+Figure 1: Blobplots of the genome assemblies for sample 04 (top) and sample 05 (bottom). Both samples are identified as _Eschericia coli_, but have contamination from other organisms, mostly bacteria and _Homo sapiens_. 
+
+![Sample 04 coverage](images/cov_04.png)
+![Sample 05 coverage](images/cov_05.png)
+Figure 2: Histograms showing the coverage of each contig in each of the 2 bacterial genome assemblies. Contigs with less than 20x coverage were filtered out. 
