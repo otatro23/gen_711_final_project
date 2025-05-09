@@ -16,4 +16,4 @@ Goals:
 # Results
 - Species Identification: Both species were _Eschericia coli_.
 
-![Image](/Users/oliviatatro/Downloads/gen711/blobplot_04.bam0.png)
+![Sample 04 blobplot](/Users/oliviatatro/Downloads/gen711/blobplot_04.bam0.png)
