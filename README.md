@@ -8,6 +8,12 @@ Goals:
 3. Create visualizations of the genomes and phylogeny 
 
 # Background
-- The data are in 4 .fastq files, containing the forward and reverse raw 250bp Illumina reads for two different mystery bacteria. 
+- The data are in 4 .fastq files, containing the forward and reverse raw 250bp Illumina reads for two different mystery bacteria.
+- The goal is to use these files to do a de novo genome assembly, annotate the genome, and identify the bacteria species. 
 
 # Methods
+
+# Results
+- Species Identification: Both species were _Eschericia coli_.
+
+![Alt text](/Users/oliviatatro/Downloads/gen711/blobplot_04.bam0.png)
