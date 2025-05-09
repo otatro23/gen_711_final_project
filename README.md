@@ -50,6 +50,10 @@ Bedtools can also be used for many different things, but I used it to make cover
 **Blobtools**
 Blobtools is a program that plots the contigs as circles, with the size being proportional to their length, the x axis being GC proportion, and the y axis being log-transformed coverage. It requires the contigs from the assembly, the bam file, and megablast file. The results of this are shown in Figure 1. Blobtools also lets you specify which taxonomic grouping to categorize the contigs by. I ran it with both species and genus arguments. 
 
+Lastly, I filtered blob_taxonomy files to exclude contigs that had less than 500 base pairs or coverage less than 20. 
+
+I used ggplot() in R to create the histograms in Figure 2 from the bedtools coverage table. 
+
 
 # Results
 - Sample 04
