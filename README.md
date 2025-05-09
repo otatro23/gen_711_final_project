@@ -17,3 +17,5 @@ Goals:
 - Species Identification: Both species were _Eschericia coli_.
 
 ![Sample 04 blobplot](images/blobplot_04.bam0.png)
+![Sample 04 blobplot](images/blobplot_05.bam0.png)
+Figure 1: Blobplots of the genome assemblies for sample 04 (top) and sample 05 (bottom). 
