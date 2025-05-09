@@ -39,10 +39,10 @@ This program annotated the assembled genome. It takes the contigs.fasta file as 
 This is the Basic Local Alignment and Search Tool. This is a powerful program that allows you to "blast" (or search for) a specific sequence in a reference sequence. For This project, BLAST helped identify the species. It takes the contigs.fasta file from SPAdes and outputs a megablast file that contains the contigs and information about them such as which species they are from. I used a pre-written script called blob_blast.sh on UNH's ron teaching server to call BLAST. 
 
 **BWA**
-Burrow's Wheeler Aligner is a program used to align reads to reference sequences. In this case, I mapped the reads onto the de novo assembly. BWA can be used for many different purposes, sucha s identifying SNPs between a sample and reference. The input to this program is the contigs.fasta file from SPAdes, and the forward and reverse reads, and it outputs a .bam file. 
+Burrow's Wheeler Aligner is a program used to align reads to reference sequences. In this case, I mapped the reads onto the de novo assembly. BWA can be used for many different purposes, such as identifying SNPs between a sample and reference. The input to this program is the contigs.fasta file from SPAdes, and the forward and reverse reads, and it outputs a .sam file. 
 
 **Samtools**
-Samtools is a program that allows conversion between sam, bam and cram files, allows you to sort and index files, and calculates statistics and quality checks. I used samtools to remove reads that did not match to the assembly, convert the .bam to a .sam, and sort and index the .bam. 
+Samtools is a program that allows conversion between sam, bam and cram files, allows you to sort and index files, and calculates statistics and quality checks. I used samtools to remove reads that did not match to the assembly, convert the .sam to a .bam, and sort and index the .bam. 
 
 **Bedtools**
 Bedtools can also be used for many different things, but I used it to make coverage tables from the sorted and indexed .bam. I used these tables to create the coverage histograms in Figure 2. 
