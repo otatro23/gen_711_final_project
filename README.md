@@ -16,8 +16,8 @@ Goals:
 # Results
 - Species Identification: Both species were _Eschericia coli_.
 
-![Sample 04 blobplot](images/blobplot_species_04.bam0.png)
-![Sample 05 blobplot](images/blobplot_species_05.bam0.png)
+![Sample 04 blobplot](images/blob_plot_species_04.bam0.png)
+![Sample 05 blobplot](images/blob_plot_species_05.bam0.png)
 Figure 1: Blobplots of the genome assemblies for sample 04 (top) and sample 05 (bottom). Both samples are identified as _Eschericia coli_, but have contamination from other organisms, mostly bacteria and _Homo sapiens_. 
 
 ![Sample 04 coverage](images/cov_04.png)
