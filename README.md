@@ -5,7 +5,7 @@ Author: Olivia Tatro
 Goals: 
 1. Create a shell script that assembles both bacterial genomes using loops
 2. Identify the species
-3. Create visualizations of the genomes and phylogeny 
+3. Create visualizations of the genome assembly 
 
 # Background
 - The data are in 4 .fastq files, containing the forward and reverse raw 250bp Illumina reads for two different mystery bacteria.
